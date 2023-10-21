@@ -14,8 +14,18 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
-
-.card: :nth-of-type()
+/* first card */
+.card:nth-of-type(1)
 {
-    background-color: brown;
+    background-color: hsl(31, 77%, 52%);
+}
+/* second card */
+.card:nth-of-type(1)
+{
+    background-color: hsl(31, 77%, 52%);
+}
+/* third card */
+.card:nth-of-type(1)
+{
+    background-color: hsl(31, 77%, 52%);
 }
