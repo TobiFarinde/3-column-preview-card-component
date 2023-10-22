@@ -85,6 +85,14 @@ align-items: center;
 }
 
 /* @media Query */
-@media only screen and (max width:600px)
-#container(
-flex-direction: column;(
+@media only screen and (max-width: 600px) {
+#container {
+    margin: 10px 0px 10px 0px ;
+    height: auto;
+    flex-direction:column;
+}
+
+.card {
+    border-radius:0 !important;
+    height: 400px !important;
+}
