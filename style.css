@@ -59,14 +59,32 @@ align-items: center;
 }
 
 .btn {
-    padding: 10px, 18px;
+    padding: 10px 18px;
     font-family: 'big shoulders display' cursive;
     background-color: #fff;
     border: none;
     border-radius: 30px;
 }
 
-/* first button */
-.btn1{
-    color: hsl(31, 77% 52%);
+/* first btn */
+.btn1
+{
+    color: hsl(31, 77%, 52%);
+   
 }
+/* second btn */
+.btn2
+{
+    color: hsl(184, 100%, 22%);
+   
+}
+/* third btn */
+.btn3
+{
+    color: hsl(179, 100%, 13%);  
+}
+
+/* @media Query */
+@media only screen and (max width:600px)
+#container(
+flex-direction: column;(
