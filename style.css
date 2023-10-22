@@ -45,3 +45,6 @@ align-items: center;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
 }
+.card h1 {
+    font-family: 'big shoulders display' cursive;
+}
